@@ -24,6 +24,11 @@ ol {
 	margin-left: 5%;
 }
 
+.text3 {
+	margin-left: 5%;
+	font-style: 30px;
+}
+
 #poka {
 	display: flex;
 	position: absolute;
