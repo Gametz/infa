@@ -39,7 +39,7 @@ ol {
 	display: flex;
 	position: fixed;
 	left: 50%;
-	top: 0;
+	top: 10%;
 	font-size: 50px;
 	opacity: 0;
 }
