@@ -1,0 +1,61 @@
+body {
+	background: url(bg.png) 0 0 repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol {
+	color: red;
+}
+
+@font-face {
+	font-family: font1;
+	src: url(OGT.ttf);
+}
+
+.text {	
+	font-family: font1;
+	font-size: 25px;
+}
+
+.text2 {
+	margin-left: 5%;
+}
+
+#poka {
+	display: flex;
+	position: absolute;
+	left: 40%;
+}
+
+.gif2 {
+	display: flex;
+	position: fixed;
+	left: 20%;
+	top: 0;
+	font-size: 200px;
+	opacity: 0;
+}
+
+.gif2:hover {
+	display: flex;	
+	position: fixed;
+	opacity: 1;
+}
+
+.by {
+	color: black;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.by:hover {
+	border: 1px solid rgba(255, 255, 255, 1);
+	background: rgba(255, 255, 255, 1);
+}
