@@ -33,9 +33,9 @@ ol {
 .gif2 {
 	display: flex;
 	position: fixed;
-	left: 20%;
+	left: 40%;
 	top: 0;
-	font-size: 200px;
+	font-size: 100px;
 	opacity: 0;
 }
 
