@@ -37,6 +37,7 @@ ol {
 	top: 0;
 	font-size: 50px;
 	opacity: 0;
+	border: 10px solid white;
 }
 
 .gif2:hover {
