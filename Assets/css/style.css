@@ -1,0 +1,235 @@
+body {
+	background: url(../background/bg.png) 0 0 repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol {
+	color: red;
+}
+
+html { 
+   scroll-behavior: smooth; 
+} 
+
+@font-face {
+	font-family: font1;
+	src: url(../fonts/OGT.ttf);
+}
+
+.gl {
+	color: black;
+}
+
+.menu {
+	font-family: font1;
+	font-size: 30px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	background-color: rgba(64, 61, 61, 0.8);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.btns {
+	display: flex;
+	width: 20%;
+}
+
+.btn {
+	display: flex;
+	width: 100%;
+	color: white;
+}
+
+.text {	
+	font-family: font1;
+	font-size: 25px;
+}
+
+.text2 {
+	margin-left: 5%;
+	font-family: font1;
+	font-size: 40px;
+}
+
+#poka {
+	display: flex;
+	position: absolute;
+	left: 30%;
+	font-family: font1;
+	font-size: 50px
+}
+
+.by {
+	color: black;
+	font-family: font1;
+	position: fixed;
+	font-size: 25px;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.by:hover {
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.about {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 10px;
+	background-color: grey;
+}
+
+.el {
+	display: flex;
+	font-family: font1;
+	font-size: 30px;
+	width: 100%
+}
+
+.els {
+	display: flex;
+	padding: 10px
+}
+
+.imgg {
+	width: 200px;
+	height: 300px
+}
+
+.imggg {
+	width: 200px;
+}
+
+.txt {
+	color: white;
+}
+
+.sl_ctr{
+position:relative;
+width:450px;
+height:300px;
+overflow:hidden;
+}
+
+.sldr{
+position:relative;
+width:10000px;
+height:300px;
+}
+
+.sldr img{
+float:left;
+}
+
+.prv_b, .nxt_b{
+position:absolute;
+top:135px;
+display:block;
+width:35px;
+height:35px;
+cursor:pointer;
+}
+
+.prv_b:hover, .nxt_b:hover{opacity:.6;}
+.prv_b{
+left:10px;
+background:url(../media/prv.png) no-repeat;
+}
+
+.nxt_b{
+right:10px;
+background:url(../media/nxt.png) no-repeat;
+}
+
+.helptxt {
+	font-family: font1;
+	font-size: 40px;
+	color: white;
+	padding-bottom: 20px
+}
+
+
+.help {
+	background-color: grey;
+	padding: 30px;
+	margin: 30px;
+}
+
+.money {
+	background-color: grey;
+	padding: 20px;
+	margin: 40px;
+}
+
+.to {
+	font-family: font1;
+	font-size: 30px;
+	color: white;
+}
+
+.kid {
+	display: flex;
+	position: relative;
+}
+
+.kid a {
+	color: blue;
+}
+
+.txxt {
+	font-size: 40px;
+	font-family: font1;
+	margin: 5px
+}
+
+.ell {
+	display: flex;
+	font-family: font1;
+	font-size: 35px;
+}
+
+.next {
+	display: flex;
+	position: absolute;
+	background-color: rgb(103, 128, 159, 0.7);
+	padding: 8px;
+	border-radius: 15px;
+	bottom: 50%;
+	right: 30%;
+	font-family: font1;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.next a {
+	color: rgba(0, 0, 0, 1);
+}
+
+.prev {
+	display: flex;
+	position: absolute;
+	background-color: rgb(103, 128, 159, 0.7);
+	padding: 8px;
+	border-radius: 15px;
+	bottom: 50%;
+	right: 50%;
+	font-family: font1;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.prev a {
+	color: rgba(0, 0, 0, 1);
+}
