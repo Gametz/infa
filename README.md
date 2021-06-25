@@ -1,1 +1,1 @@
-# https://gametz.github.io/fcb_fsb/
+# https://gametz.github.io/infa/
